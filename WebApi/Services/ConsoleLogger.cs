@@ -5,6 +5,7 @@
         public void Ilog(string message)
         {
            Console.WriteLine(message);
+           Console.WriteLine(message);
         }
     }
 }
