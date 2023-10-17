@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection.Extensions;
 using WebApi.Services;
 
+
 public class Startup
 {
     public IConfiguration Configuration { get; }
@@ -8,12 +9,15 @@ public class Startup
     public Startup(IConfiguration configuration)
     {
         Configuration = configuration;
+       
     }
 
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddControllers();
+        services.AddMemoryCache();
         services.Add(new ServiceDescriptor(typeof(IRepo),new ConsoleLogger()));
+       
 
 
     }

@@ -1,0 +1,14 @@
+﻿the recive response USD of amount 100 to INR 8320.3
+
+the recive response USD of amount 1 to INR 83.2
+
+the recive response USD of amount 10 to INR 832.03
+
+the recive response USD of amount 100 to INR 8320.3
+
+the recive response USD of amount 100 to INR 8332.29
+
+the recive response USD of amount 1 to INR 0
+
+the recive response USD of amount 1 to INR 83.25
+
